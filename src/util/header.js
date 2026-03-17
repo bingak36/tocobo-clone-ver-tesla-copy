@@ -1,5 +1,5 @@
 
-const img = (path) => `/img/${path}`
+const img = (path) => `/tesla-image/${path}`
 
 export const headerData = {
 
@@ -11,31 +11,31 @@ export const headerData = {
     menus: [
         {
             id: 'hero',
-            label: 'hero',
+            label: 'Hero',
             href: '#hero',
             type: 'section'
         },
         {
             id: 'follow',
-            label: 'follow',
+            label: 'Follow',
             href: '#follow',
             type: 'section'
         },
         {
             id: 'collection',
-            label: 'collection',
+            label: 'Collection',
             href: '#collection',
             type: 'section'
         },
         {
             id: 'skincare',
-            label: 'skincare',
+            label: 'Introduction',
             href: '#skincare',
             type: 'section'
         },
         {
             id: 'instargram',
-            label: 'instargram',
+            label: 'SNS',
             href: '#instargram',
             type: 'section'
         },
@@ -46,13 +46,13 @@ export const headerData = {
         { id: "cart", label: "장바", icon: img("icon_cart.svg"), href: "#" },
     ],
     // 상단 공지/배너 (TopBanner용)
-    topBanner: {
+   topBanner: {
         enabled: true,
-        height: 64,                   // px
+        height: 64,
         items: [
-            { id: "tb-1", text: "새로운 소식이 있습니다.", href: "#" },
-            { id: "tb-2", text: "업데이트 안내", href: "#" },
-            { id: "tb-3", text: "이벤트 진행 중!", href: "#" },
+            { id: "tb-1", text: "테슬라를 타고 어디든 다녀보세요", href: "#"},
+            { id: "tb-2", text: "테슬라 소프트웨어 업데이트", href: "#"},
+            { id: "tb-3", text: "이벤트 진행 중 !", href: "#"},
         ],
         closeIcon: img("icon_pop_close_b.png"),
         background: "#DC272D",
