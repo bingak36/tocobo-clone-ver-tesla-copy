@@ -1,39 +1,39 @@
-const img = (path) => `/img/${path}`;
+const img = (path) => `/tesla-image/${path}`
 
 const instar = [
   {
     id: 1,
-    image: img("instar1.jpg"),
+    image: img("SNS-1.jpg"),
     alt: "비건 스킨케어 제품과 과일, 꽃이 함께 있는 화보 이미지",
     link: "/brand",
   },
   {
     id: 2,
-    image: img("SNS2.jpg"),
+    image: img("SNS-2.jpg"),
     alt: "밝은 하늘과 함께 연출된 스킨케어 제품 이미지",
     link: "/shop",
   },
   {
     id: 3,
-    image: img("SNS3.jpg"),
+    image: img("SNS-3.jpg"),
     alt: "컬러풀한 배경 속 토코보 제품 진열 이미지",
     link: "/promotion",
   },
   {
     id: 4,
-    image: img("SNS4.jpg"),
+    image: img("SNS-4.jpg"),
     alt: "자연 친화적인 무드의 비건 화장품 이미지",
     link: "/community",
   },
     {
     id: 5,
-    image: img("SNS5.jpg"),
+    image: img("SNS-5.jpg"),
     alt: "밝은 하늘과 함께 연출된 스킨케어 제품 이미지",
     link: "/shop",
   },
     {
     id: 6,
-    image: img("SNS6.jpg"),
+    image: img("SNS-6.jpg"),
     alt: "밝은 하늘과 함께 연출된 스킨케어 제품 이미지",
     link: "/shop",
   },
