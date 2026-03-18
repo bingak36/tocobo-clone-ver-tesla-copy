@@ -1,5 +1,5 @@
 import React from 'react'
-import skincare from '../util/skincare'
+import {introData} from '../util/skincare'
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import './styles/SkinCare.scss'
@@ -8,14 +8,14 @@ const SkinCare = () => {
     <div className='inner skincare-inner'>
       <div className="t-wrap">
         <h2 className="tit">
-          Vegan Skincare
+          Sustainable Future
         </h2>
         <p className="txt">
-          피부에 건강한 영향력을 전달하고 꼭 필요한 성분만을 담아 <br />
-          놀라운 변화를 선사하는 비건 스킨케어 브랜드 토코보
+          단순히 전기차를 만드는 것을 넘어, 태양광 패널과 Powerwall을 통해 에너지를 직접 생산하고 저장하는 에코시스템을 구축합니다. <br />
+          우리는 타협하지 않는 성능과 환경 보호가 공존할 수 있음을 증명합니다.
         </p>
         <a href="#" className="btn">
-          meet tocobo
+          DISCOVER TESLA
         </a>
       </div>
       <div className="slider-wrap">
@@ -25,14 +25,12 @@ const SkinCare = () => {
           spaceBetween={30}
           loop={true}
           className="skincare-slider">
-            {skincare.map((sl)=>(
+            {introData.map((sl)=>(
 
             <SwiperSlide 
             style={{backgroundImage:`url(${sl.image})`}}
             key={sl.id} >
-              <a href={sl.link}>
-              {sl.id}
-              </a>
+              <img src={sl.src} alt={sl.alt} />
             </SwiperSlide>
             ))}
 
