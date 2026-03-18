@@ -3,7 +3,7 @@ const img = (path) => `/img/${path}`;
 const instar = [
   {
     id: 1,
-    image: img("SNS1.jpg"),
+    image: img("instar1.jpg"),
     alt: "비건 스킨케어 제품과 과일, 꽃이 함께 있는 화보 이미지",
     link: "/brand",
   },
