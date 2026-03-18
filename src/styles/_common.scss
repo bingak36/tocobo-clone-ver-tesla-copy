@@ -52,11 +52,11 @@
     a.btn {
         display: inline-block;
         margin-top: 3rem;
-        padding: 1.7rem 6.8rem;
+        padding: 1rem 6.8rem;
         font-size: 1.6rem;
         text-align: center;
-        max-width: 27rem;
-        height: 5rem;
+        max-width: 31rem;
+        // height: 5rem;
         align-content: center;
         color: var(--bg);
         background-color: var(--primary);
@@ -154,8 +154,8 @@ footer {
 
     &.scrolled {
         header {
-            background: #ffffff;
-            background: linear-gradient(180deg, rgba(255, 255, 255, 1) 24%, rgba(255, 255, 255, 0) 100%);
+            background: #000000;
+            background: linear-gradient(180deg, rgb(0, 0, 0) 24%, rgba(0, 0, 0, 0) 100%);
         }
     }
 
