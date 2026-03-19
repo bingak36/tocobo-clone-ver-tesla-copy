@@ -137,7 +137,6 @@ const Footer = () => {
                 </a>
               ))}
             </div>
-            <p>{footerLegal.copyright}</p>
           </div>
           <ul className="sns-links">
             {socialLinks.map((sns) => (
