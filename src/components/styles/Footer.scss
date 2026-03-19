@@ -177,12 +177,25 @@ footer {
                 padding: 3rem 0 6rem;
             }
 
-            .legal-links a {
+            .legal-links {
+
+                a {
                 display: inline-block;
                 margin-right: 2rem;
                 font-size: 1.3rem;
-                color: #6f6f6f
+                color: #6f6f6f 
             }
-        }
+        }}
+    }
+}
+
+.sns-links {
+    display: flex;
+    gap: 10px;
+
+    li a {
+        margin-top: 10px;
+        display: flex;
+        color: var(--primary);
     }
 }
