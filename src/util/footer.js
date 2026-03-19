@@ -1,28 +1,26 @@
 // src/util/footer.js
-const img = (path) => `/img/${path}`;
+const img = (path) => `/tesla-image/${path}`
 import { FaInstagramSquare, FaYoutube } from "react-icons/fa";
 import { RiKakaoTalkFill } from "react-icons/ri";
 
 // 로고
 export const logoData = {
-  src: img("logo.svg"),
+  src: img("Logo.svg"),
   alt: "TOCOBO 로고",
   href: "/",
 };
 
 // 회사 정보
 export const companyData = [
-  "주식회사 픽톤  대표 : 이병훈",
-  "주소 : 03966 서울특별시 마포구 월드컵북로15길 45 (성산동)",
-  "사업자등록번호 : 196-81-02410 [사업자정보확인]",
-  "통신판매업신고 : 제2021-서울마포-2994호 개인정보보호책임자 : 안주영",
-  "TEL : 02-6352-2410  E-MAIL : help@thepicton.com",
-  "마케팅문의 : 마케팅팀 mkt@thepicton.com",
-  "수출문의 : 해외영업팀 sales1@thepicton.com",
-  "특판&대량구매문의 : 국내영업팀 sales@thepicton.com",
+  "테슬라 코리아 유한회사, 데이비드존파인스타인, 케네스어니스트무어",
+    "주소 : 서울특별시 강남구 테헤란로 419,9층",
+    "사업자등록번호 : 524-88-00237",
+    "통신판매업신고 : 제2016-서울강남-02964호",
+    "대표 전화 : 080-617-1388",
+    "메일 : southkorea@tesla.com"
 ];
 export const footerLegal = {
-  copyright: "COPYRIGHT© 주식회사 픽톤 2021 TOCOBO. ALL RIGHT RESERVED.",
+  
   links: [
     { label: "이용약관", href: "/terms" },
     { label: "개인정보처리방침", href: "/privacy" },
@@ -41,35 +39,40 @@ export const customerCenterData = {
 // 메뉴
 export const footerMenus = [
   {
-    title: "Brand",
+    title: "Model",
     items: [
-      { label: "Brand Story", href: "/brand-story" },
-      { label: "Collection", href: "/collection" },
+      { label: "Model S", href: "/Model S" },
+      { label: "Model 3", href: "/Model 3" },
+      { label: "Model X", href: "/Model X" },
+      { label: "MModel Y", href: "/Model Y" },
+      { label: "Cybertruck", href: "/Cybertruck" },
     ],
   },
   {
     title: "Shop",
     items: [
-      { label: "All Product", href: "/shop" },
-      { label: "MakeUp", href: "/shop/makeup" },
-      { label: "Cleansing", href: "/shop/cleansing" },
-      { label: "Skincare", href: "/shop/skincare" },
-      { label: "Sun", href: "/shop/sun" },
-      { label: "Lip", href: "/shop/lip" },
-      { label: "Set/Etc", href: "/shop/etc" },
+      { label: "신차 재고 차량", href: "/shop/신차 재고 차량" },
+      { label: "인증 중고 차량", href: "/shop/인증 중고 차량" },
+      { label: "시승 신청", href: "/shop/시승 신청" },
+      { label: "법인 구매", href: "/shop/법인 구매" },
+      { label: "액세서리 쇼핑몰 (Shop)", href: "/shop/액세서리 쇼핑몰 (Shop)" },
+
     ],
   },
   {
-    title: "Promotion",
-    items: [{ label: "Promotion", href: "/promotion" }],
+    title: "Energy",
+    items: [
+      { label: "PSolar", href: "/Solar" },
+      { label: "Powerwall", href: "/Powerwall" },
+    ],
   },
   {
-    title: "Community",
+    title: "Support",
     items: [
-      { label: "Notice", href: "/notice" },
+      { label: "News", href: "/News" },
       { label: "FAQ", href: "/faq" },
-      { label: "Review", href: "/review" },
-      { label: "1:1 CS", href: "/cs" },
+      { label: "Find Us", href: "/Find Us" },
+      { label: "Contact", href: "/Contact" },
     ],
   },
 ];

@@ -1,24 +1,48 @@
 .instar-inner{
-    h2.tit {
-        color: var(--secondary);
-    }
-    p.txt {
-        font-family: 'Source Serif Pro',serif;
-        font-size: 2rem;
-        font-style: italic;
+
+    .t-wrap {
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+        text-align: center;
+
+        h2.tit {
+            color: var(--primary);
+        }
+        p.txt {
+            font-family: 'Source Serif Pro',serif;
+            font-size: 2rem;
+            font-style: italic;
+            display: flex;
+            align-items: flex-end;
+        }
     }
 
     .instar-list{
         display: flex;
+        flex-wrap: wrap;
         gap: 1rem;
         margin-top: 4rem;
         li{
-            flex:1;
+            flex: 1;
             a{
                 display: block;
                 height: 21rem;
                 background-size: cover;
                 background-position: center;
+            }
+        }
+
+        @media screen and (max-width:1111px) {
+            li {
+                flex: 0 0 calc(33.333% - 0.667rem);
+                
+            }
+        }
+
+        @media screen and (max-width:390px) {
+            li {
+                flex: 0 0 calc(50% - 0.5rem);
             }
         }
     }

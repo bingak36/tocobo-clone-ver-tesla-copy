@@ -32,11 +32,11 @@ const Collection = () => {
 
       <div className="t-wrap">
         <h2 className="tit">
-          TOCOBO <br className='mob-only'/>
+          TESLA <br className='mob-only'/>
            COLLECTION
         </h2>
         <p className="txt">
-          Shop By Category
+          Experience the Future with Tesla
         </p>
       </div>
 

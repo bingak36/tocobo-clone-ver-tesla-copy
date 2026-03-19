@@ -14,7 +14,7 @@
     }
 
     h2.tit {
-        color: var(--secondary);
+        color: var(--primary);
 
         @media screen and (max-width:1111px) {
             margin-bottom: 2rem;
@@ -22,7 +22,7 @@
     }
 
     a.btn {
-        background: var(--s-gradient);
+        background: var(--p-gradient);
 
         &:hover {
             color: var(--secondary)
