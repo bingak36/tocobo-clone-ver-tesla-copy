@@ -1,11 +1,21 @@
 .instar-inner{
-    h2.tit {
-        color: var(--secondary);
-    }
-    p.txt {
-        font-family: 'Source Serif Pro',serif;
-        font-size: 2rem;
-        font-style: italic;
+
+    .t-wrap {
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+        text-align: center;
+
+        h2.tit {
+            color: var(--primary);
+        }
+        p.txt {
+            font-family: 'Source Serif Pro',serif;
+            font-size: 2rem;
+            font-style: italic;
+            display: flex;
+            align-items: flex-end;
+        }
     }
 
     .instar-list{
