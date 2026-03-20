@@ -33,6 +33,7 @@
 
 html {
     font-size: 62.5%;
+    overflow-x: hidden;
 }
 
 body {
@@ -64,13 +65,6 @@ button {
     cursor: pointer;
     font: inherit;
     color: inherit;
-}
-
-section {
-    // min-height: 100vh;
-    &:nth-child(odd){
-        // background-color: rgb(255, 235, 218);
-    }
 }
 
 ul,

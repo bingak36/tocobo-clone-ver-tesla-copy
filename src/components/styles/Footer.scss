@@ -25,6 +25,15 @@ footer {
 
             h3 {
                 margin-bottom: 4rem;
+                img {
+                    height: auto;
+                }
+
+                @media screen and (max-width:1111px) {
+                    img {
+                    width: 25rem;
+                    }
+                }
             }
 
             .foot-list-1 li {

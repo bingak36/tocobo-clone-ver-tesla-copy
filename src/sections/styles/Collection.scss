@@ -15,6 +15,7 @@
         margin-top: 6.8rem;
 
 
+
         @media screen and (max-width:1280px) {
             width: clamp(90rem, 90vw, 110rem);
         }
@@ -55,17 +56,11 @@
         .img-wrap {
             width: 36rem;
             height: 36rem;
-            // overflow: hidden;
+            overflow: hidden;
             border-radius: 1rem;
             background-color: var(--bg);
             align-content: center;
             margin: 2.5rem auto 0;
-
-            img {
-                // width: 110%;
-                // height: 110%;
-                // animation: up 2s infinite alternate;
-            }
 
 
             @media screen and (max-width:1280px) {
